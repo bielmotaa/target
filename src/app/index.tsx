@@ -6,6 +6,8 @@ export default function Index() {
         <View>
             <Text>Home</Text>
             <Button title="Go to Target" onPress={() => router.navigate("/target")} />
+
+            <Button title="Transport" onPress={() => router.navigate("/transaction/13")} />
         </View>
     );
 }
